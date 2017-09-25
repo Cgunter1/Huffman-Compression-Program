@@ -113,7 +113,7 @@ int main(int argc, char **argv)
 	}
 	if(verboseMode)
 	{
-		printf("Original %lu bits: tree (%d)\n", oSize*8, treeSize);
+		printf("Original %llu bits: tree (%d)\n", oSize*8, treeSize);
 	}
 	delVec(holdVec);
 	delTree(root); 

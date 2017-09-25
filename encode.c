@@ -174,7 +174,7 @@ int main(int argc, char **argv)
     }
     if(verb == true)
     {
-	printf("Original File is %lu, leaves %d (%d) encoding %lu (%lf)\n", byteNumber, leaves, leaveRep, bitNumber, (double)(((double)bitNumber)/(((double)byteNumber)*8)));
+	printf("Original File is %llu, leaves %d (%d) encoding %llu (%lf)\n", byteNumber, leaves, leaveRep, bitNumber, (double)(((double)bitNumber)/(((double)byteNumber)*8)));
     }
 
     close(input);
